@@ -1,6 +1,5 @@
 # 🥷 Cadastro de Ninjas - Spring Boot
 
-![Ninja Coding](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmtyZDF4NDFydnl1MjZrcnpmZ2h3MTFveHIyanlhNWhmZ255dWtvaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/12775LeUHMZjNu/giphy.gif)
 
 Bem-vindo ao **Cadastro de Ninjas**, um projeto desenvolvido com **Spring Boot** como parte do curso dos estudos. Este módulo, localizado no repositório [Dio_Java](https://github.com/MatheusxEduardo/Dio_Java), implementa uma API REST para gerenciar cadastros de ninjas, incluindo informações como nome, clã e habilidades.
 
