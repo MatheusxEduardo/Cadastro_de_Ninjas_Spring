@@ -1,7 +1,7 @@
 # 🥷 Cadastro de Ninjas - Spring Boot
 
 
-Bem-vindo ao **Cadastro de Ninjas**, um projeto desenvolvido com **Spring Boot** como parte do curso dos estudos. Este módulo, localizado no repositório [Dio_Java](https://github.com/MatheusxEduardo/Dio_Java), implementa uma API REST para gerenciar cadastros de ninjas, incluindo informações como nome, clã e habilidades.
+Bem-vindo ao **Cadastro de Ninjas**, um projeto desenvolvido com **Spring Boot** como parte do curso dos estudos. Este módulo, localizado no repositório [Cadastro_de_Ninjas_Spring](https://github.com/MatheusxEduardo/Dio_Java), implementa uma API REST para gerenciar cadastros de ninjas, incluindo informações como nome, clã e habilidades.
 
 ---
 
@@ -28,7 +28,7 @@ Bem-vindo ao **Cadastro de Ninjas**, um projeto desenvolvido com **Spring Boot**
 
 ## 📖 Sobre o Projeto
 
-O **Cadastro de Ninjas** é um projeto educacional que demonstra o uso do **Spring Boot** para criar uma API RESTful. Ele faz parte do repositório `Dio_Java`, que contém vários exercícios e projetos Java. O objetivo é aprender e aplicar conceitos como:
+O **Cadastro de Ninjas** é um projeto educacional que demonstra o uso do **Spring Boot** para criar uma API RESTful. Ele faz parte do repositório `Cadastro_de_Ninjas_Spring`, que contém vários exercícios e projetos Java. O objetivo é aprender e aplicar conceitos como:
 
 - Desenvolvimento de APIs REST.
 - Mapeamento objeto-relacional com **Spring Data JPA**.
@@ -70,7 +70,7 @@ Siga os passos abaixo para rodar o projeto localmente.
 Clone o repositório e navegue até a pasta do projeto:
 
 ```bash
-git clone https://github.com/MatheusxEduardo/Dio_Java.git
+git clone https://github.com/MatheusxEduardo/Cadastro_de_Ninjas_Spring.git
 cd Dio_Java/Spring/CadastroDeNinjas
 ```
 
@@ -92,7 +92,7 @@ export JAVA_HOME=~/.asdf/installs/java/temurin-17.0.12+7
 
 ### Configurar o IntelliJ
 
-1. Abra o projeto: **File > Open > Dio_Java/Spring/CadastroDeNinjas**.
+1. Abra o projeto: **File > Open > Cadastro_de_Ninjas_Spring**.
 2. Configure o SDK: **File > Project Structure > SDK** (selecione o JDK 17 do `asdf`).
 3. Configure o Maven: **File > Settings > Build, Execution, Deployment > Build Tools > Maven** (use `./mvnw`).
 
@@ -155,7 +155,7 @@ Encontrou um bug ou quer sugerir algo? Crie uma issue:
 gh issue create --title "Problema X" --body "Detalhes do problema ou sugestão."
 ```
 
-Ou acesse: [Issues](https://github.com/MatheusxEduardo/Dio_Java/issues).
+Ou acesse: [Issues](https://github.com/MatheusxEduardo/Cadastro_de_Ninjas_Spring/issues).
 
 ---
 
