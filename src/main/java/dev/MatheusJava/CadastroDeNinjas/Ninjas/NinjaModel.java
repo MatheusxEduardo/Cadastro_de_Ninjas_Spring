@@ -1,7 +1,9 @@
-package dev.MatheusJava.CadastroDeNinjas;
+package dev.MatheusJava.CadastroDeNinjas.Ninjas;
 
+import dev.MatheusJava.CadastroDeNinjas.Missoes.MissoesModel;
 import jakarta.persistence.*;
-import org.springframework.boot.autoconfigure.domain.EntityScan;
+
+import java.util.List;
 
 // Transforma uma classe em uma entidade
 @Entity
@@ -10,9 +12,17 @@ public class NinjaModel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
     private String nome;
+
     private String email;
+
     private int idade;
+
+    @ManyToOne
+    @JoinColumn(name = "missoes_id") //Chave estrangeira
+    private MissoesModel missoes;
+
 
     public NinjaModel() {
     }
