@@ -19,7 +19,7 @@ public class MissoesModel {
     @GeneratedValue(strategy = GenerationType.IDENTITY) //Gera o Id sequencialmente na tabela
     private Long id;
     private String nome;
-    private  String rankin;
+    private  String dificuldade;
 
     private NinjaModel ninja;
 
