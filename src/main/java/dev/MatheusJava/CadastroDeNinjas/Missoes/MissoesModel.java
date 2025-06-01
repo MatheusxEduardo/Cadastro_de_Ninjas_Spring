@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 
 import java.util.List;
 
-@Entity // Define classe abaixo como entidade no banco de dados
+@Entity
 @Table(name = "tb_missoes")
 @Data
 @NoArgsConstructor
@@ -16,14 +16,11 @@ import java.util.List;
 public class MissoesModel {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY) //Gera o Id sequencialmente na tabela
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String nome;
-    private  String dificuldade;
-
-    private NinjaModel ninja;
+    private String dificuldade;
 
     @OneToMany(mappedBy = "missoes")
     private List<NinjaModel> ninjas;
-
 }
