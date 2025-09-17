@@ -11,7 +11,7 @@ import java.util.List;
 
 // Transforma uma classe em uma entidade
 @Entity
-@Table(name = "tb_cadasto")
+@Table(name = "\"tb_cadastro\"")
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
