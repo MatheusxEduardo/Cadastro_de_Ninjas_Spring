@@ -6,22 +6,22 @@
   <component name="ChangeListManager">
     <list default="true" id="8435d7d6-7101-410a-95d9-5b35b067adf8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/CadastroDeNinjaDb.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/CadastroDeNinjaDb.mv.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/CadastroDeNinjaDb.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/CadastroDeNinjaDb.trace.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/MatheusJava/CadastroDeNinjas/Missoes/MissoesModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/MatheusJava/CadastroDeNinjas/Missoes/MissoesModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/MatheusJava/CadastroDeNinjas/Ninjas/NinjaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/MatheusJava/CadastroDeNinjas/Ninjas/NinjaController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/MatheusJava/CadastroDeNinjas/Ninjas/NinjaModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/MatheusJava/CadastroDeNinjas/Ninjas/NinjaModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/MatheusJava/CadastroDeNinjas/Ninjas/NinjaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/MatheusJava/CadastroDeNinjas/Ninjas/NinjaRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/MatheusJava/CadastroDeNinjas/Ninjas/NinjaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/MatheusJava/CadastroDeNinjas/Ninjas/NinjaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migrations/V2__Add_rank_tb_cadastro.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migrations/V2__Add_rank_tb_cadastro.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db/migrations/V2__Add_rank_tb_cadastro.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db/migrations/V2__Add_rank_tb_cadastro.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/MatheusJava/CadastroDeNinjas/CadastroDeNinjasApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/MatheusJava/CadastroDeNinjas/CadastroDeNinjasApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/MatheusJava/CadastroDeNinjas/Missoes/MissoesModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/MatheusJava/CadastroDeNinjas/Missoes/MissoesModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/MatheusJava/CadastroDeNinjas/Ninjas/NinjaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/MatheusJava/CadastroDeNinjas/Ninjas/NinjaController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migrations/V2__Add_rank_tb_cadastro.sql" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/V2__Add_rank_tb_cadastro.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/migrations/V2__Add_rank_tb_cadastro.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/MatheusJava/CadastroDeNinjas/CadastroDeNinjasApplication.java:Zone.Identifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/MatheusJava/CadastroDeNinjas/Missoes/MissoesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/MatheusJava/CadastroDeNinjas/Missoes/MissoesController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/MatheusJava/CadastroDeNinjas/Missoes/MissoesRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/MatheusJava/CadastroDeNinjas/Missoes/MissoesRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/MatheusJava/CadastroDeNinjas/Missoes/MissoesService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/MatheusJava/CadastroDeNinjas/Missoes/MissoesService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/dev/MatheusJava/CadastroDeNinjas/Ninjas/NinjaModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/MatheusJava/CadastroDeNinjas/Ninjas/NinjaModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/dev/MatheusJava/CadastroDeNinjas/CadastroDeNinjasApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/dev/MatheusJava/CadastroDeNinjas/CadastroDeNinjasApplicationTests.java:Zone.Identifier" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +35,9 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -54,6 +57,7 @@
     &quot;Application.CadastroDeNinjasApplication.executor&quot;: &quot;Run&quot;,
     &quot;Maven.CadastroDeNinjas [clean].executor&quot;: &quot;Run&quot;,
     &quot;Maven.CadastroDeNinjas [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.CadastroDeNinjas [org.apache.maven.plugins:maven-install-plugin:3.1.4:install].executor&quot;: &quot;Run&quot;,
     &quot;Maven.CadastroDeNinjas [org.springframework.boot:spring-boot-maven-plugin:3.4.5:run].executor&quot;: &quot;Run&quot;,
     &quot;Maven.CadastroDeNinjas [org.springframework.boot:spring-boot-maven-plugin:3.4.5:start].executor&quot;: &quot;Run&quot;,
     &quot;Maven.CadastroDeNinjas [spring-boot:run].executor&quot;: &quot;Run&quot;,
@@ -72,6 +76,11 @@
     &quot;settings.editor.splitter.proportion&quot;: &quot;0.31196582&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="\\wsl.localhost\Ubuntu\home\matheusx\Studies\Java\Cadastro_de_Ninjas_Spring" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.CadastroDeNinjasApplication">
     <configuration name="Cadastro" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="dev.MatheusJava.CadastroDeNinjas.CadastroDeNinjasApplication" />
