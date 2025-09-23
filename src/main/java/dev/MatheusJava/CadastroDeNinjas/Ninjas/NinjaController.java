@@ -41,9 +41,17 @@ public class NinjaController {
     }
 
     // Show ninja for id (READ)
-    @GetMapping("/listarID")
-    public String mostrarTodosOsNinjasPorId() {
-        return "Mostrar Ninja Por Id";
+    @GetMapping("/listar/{id}")
+    public ResponseEntity<NinjaModel> listarNinjasPorId(@PathVariable("id") Long id) {
+        try {
+            NinjaModel ninja = ninjaService.listarNinjaPorId(id);
+            if (ninja == null) {
+                return ResponseEntity.notFound().build(); // Retorna 404 se o ninja não for encontrado
+            }
+            return ResponseEntity.ok(ninja); // Retorna 200 com o ninja
+        } catch (Exception e) {
+            return ResponseEntity.status(500).build(); // Retorna 500 em caso de erro
+        }
     }
 
     // Modify Ninja data (UPDATE)

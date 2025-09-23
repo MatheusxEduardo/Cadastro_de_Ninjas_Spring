@@ -7,3 +7,9 @@ SELECT * FROM ninja [42102-232]
 2025-09-22 23:33:51.194477-03:00 jdbc[14]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]TB_CADASTO"; expected "TRUNCATE"; SQL statement:
 TB_CADASTO [42001-232]
+2025-09-23 10:29:42.914416-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "NINJA" not found; SQL statement:
+INSERT INTO NINJA (NAME, EMAIL, CLAN, ABILITIES) VALUES ('Madara Uchiha', 'madara@uchiha.com', 'Uchiha', 'Eternal Mangekyou Sharingan, Susanoo, Fire Release') [42102-232]
+2025-09-23 10:48:48.271700-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "NINJA" not found; SQL statement:
+INSERT INTO NINJA VALUES ('Madara Uchiha', 'madara@uchiha.com', 'Uchiha', 'Eternal Mangekyou Sharingan, Susanoo, Fire Release') [42102-232]

@@ -3,8 +3,10 @@ package dev.MatheusJava.CadastroDeNinjas.Ninjas;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
+import org.springframework.web.servlet.theme.CookieThemeResolver;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class NinjaService {
@@ -16,16 +18,17 @@ public class NinjaService {
         this.ninjaRepository = ninjaRepository;
     }
 
+
+    //Listar todos os ninjas cadastrados
     public List<NinjaModel> listarNinjas() {
-        logger.debug("Iniciando a listagem de ninjas...");
-        try {
-            List<NinjaModel> ninjas = ninjaRepository.findAll();
-            logger.debug("Ninjas recuperados: {}", ninjas);
-            logger.debug("Listagem concluída com sucesso. Total de ninjas: {}", ninjas.size());
-            return ninjas;
-        } catch (Exception e) {
-            logger.error("Erro ao listar ninjas: {}", e.getMessage(), e);
-            throw new RuntimeException("Erro ao listar ninjas: " + e.getMessage(), e);
-        }
+        return ninjaRepository.findAll();
     }
+
+    //Listar ninjas por id
+    public NinjaModel listarNinjaPorId(Long id) {
+        Optional<NinjaModel> ninjaPorId = ninjaRepository.findById(id);
+        return ninjaPorId.orElse(null);
+    }
+
+
 }
