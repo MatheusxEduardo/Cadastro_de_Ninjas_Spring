@@ -11,7 +11,7 @@ import java.util.List;
 
 // Transforma uma classe em uma entidade
 @Entity
-@Table(name = "\"tb_cadasto\"")
+@Table(name = "TB_CADASTO")
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
@@ -38,5 +38,7 @@ public class NinjaModel {
     @JoinColumn(name = "missoes_id") //Chave estrangeira
     private MissoesModel missoes;
 
+    @Column(name = "RANK")
+    private String rank;
 
 }

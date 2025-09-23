@@ -1,3 +1,0 @@
-2025-09-17 15:55:55.854284-03:00 jdbc[4]: exception
-org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TB_CADASTO" not found; SQL statement:
--- V2: Migrations para adicionar a coluna de RANK na [42102-232]

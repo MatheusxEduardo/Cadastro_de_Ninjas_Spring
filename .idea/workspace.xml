@@ -7,10 +7,13 @@
     <list default="true" id="8435d7d6-7101-410a-95d9-5b35b067adf8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/CadastroDeNinjaDb.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/CadastroDeNinjaDb.mv.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/CadastroDeNinjaDb.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/CadastroDeNinjaDb.trace.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb  # URL fixa para persistï¿½ncia.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/testdb  # URL fixa para persistï¿½ncia.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/MatheusJava/CadastroDeNinjas/Missoes/MissoesModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/MatheusJava/CadastroDeNinjas/Missoes/MissoesModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/MatheusJava/CadastroDeNinjas/Ninjas/NinjaModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/MatheusJava/CadastroDeNinjas/Ninjas/NinjaModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/MatheusJava/CadastroDeNinjas/Ninjas/NinjaModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/MatheusJava/CadastroDeNinjas/Ninjas/NinjaModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb  # URL fixa para persistência.mv.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb  # URL fixa para persistência.trace.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb  # URL fixa para persistï¿½ncia.mv.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb.mv.db" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
