@@ -13,3 +13,7 @@ INSERT INTO NINJA (NAME, EMAIL, CLAN, ABILITIES) VALUES ('Madara Uchiha', 'madar
 2025-09-23 10:48:48.271700-03:00 jdbc[13]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "NINJA" not found; SQL statement:
 INSERT INTO NINJA VALUES ('Madara Uchiha', 'madara@uchiha.com', 'Uchiha', 'Eternal Mangekyou Sharingan, Susanoo, Fire Release') [42102-232]
+2025-09-23 22:04:45.875864-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO TB_CADASTO (id, nome, email, idade, img_url_missoes_id, rank)\000d\000aVALUES (3, 'Sakura Haruno', 'Sakura@Haruno.com', 25, 'https://url_da_imagem.com', 1, Genin[*]');"; SQL statement:
+INSERT INTO TB_CADASTO (id, nome, email, idade, img_url_missoes_id, rank)
+VALUES (3, 'Sakura Haruno', 'Sakura@Haruno.com', 25, 'https://url_da_imagem.com', 1, Genin'); [42000-232]
