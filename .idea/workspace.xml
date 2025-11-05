@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8435d7d6-7101-410a-95d9-5b35b067adf8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/CadastroDeNinjaDb.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/CadastroDeNinjaDb.mv.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/CadastroDeNinjaDb.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/CadastroDeNinjaDb.trace.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/MatheusJava/CadastroDeNinjas/Ninjas/NinjaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/MatheusJava/CadastroDeNinjas/Ninjas/NinjaController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/MatheusJava/CadastroDeNinjas/Ninjas/NinjaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/MatheusJava/CadastroDeNinjas/Ninjas/NinjaService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/dev/MatheusJava/CadastroDeNinjas/Ninjas/NinjaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/MatheusJava/CadastroDeNinjas/Ninjas/NinjaController.class" afterDir="false" />
