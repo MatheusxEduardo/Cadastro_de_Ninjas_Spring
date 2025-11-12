@@ -14,10 +14,13 @@ public class NinjaService {
     private static final Logger logger = LoggerFactory.getLogger(NinjaService.class);
     private final NinjaRepository ninjaRepository;
 
-    public NinjaService(NinjaRepository ninjaRepository) {
-        this.ninjaRepository = ninjaRepository;
-    }
+    private NinjaMapper ninjaMapper;
 
+
+    public NinjaService(NinjaRepository ninjaRepository, NinjaMapper ninjaMapper) {
+        this.ninjaRepository = ninjaRepository;
+        this.ninjaMapper = ninjaMapper;
+    }
 
     //Listar todos os ninjas cadastrados
     public List<NinjaModel> listarNinjas() {
@@ -30,9 +33,12 @@ public class NinjaService {
         return ninjaPorId.orElse(null);
     }
 
-    //Criar um novo nija
-    public NinjaModel criarNinja(NinjaModel ninja) {
-        return ninjaRepository.save(ninja);
+    //Criar um novo ninja
+    public NinjaDTO criarNinja(NinjaDTO ninjaDTO) {
+        NinjaModel ninja = ninjaMapper.map(ninjaDTO);
+        ninja = ninjaRepository.save(ninja);
+        return ninjaMapper.map(ninja);
+        
     }
 
     //Deletar um ninja -- Tem que ser um metodo VOID
