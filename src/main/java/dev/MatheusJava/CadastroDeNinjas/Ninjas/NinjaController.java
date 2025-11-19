@@ -28,9 +28,9 @@ public class NinjaController {
 
     // Show Ninja (READ)
     @GetMapping("/listar")
-    public ResponseEntity<List<NinjaModel>> listarNinjas() {
+    public ResponseEntity<List<NinjaDTO>> listarNinjas() {
         try {
-            List<NinjaModel> ninjas = ninjaService.listarNinjas();
+            List<NinjaDTO> ninjas = ninjaService.listarNinjas();
             if (ninjas.isEmpty()) {
                 return ResponseEntity.ok().body(ninjas); // Retorna lista vazia com 200 OK
             }
@@ -42,9 +42,9 @@ public class NinjaController {
 
     // Show ninja for id (READ)
     @GetMapping("/listar/{id}")
-    public ResponseEntity<NinjaModel> listarNinjasPorId(@PathVariable("id") Long id) {
+    public ResponseEntity<NinjaDTO> listarNinjasPorId(@PathVariable("id") Long id) {
         try {
-            NinjaModel ninja = ninjaService.listarNinjaPorId(id);
+            NinjaDTO ninja = ninjaService.listarNinjaPorId(id);
             if (ninja == null) {
                 return ResponseEntity.notFound().build(); // Retorna 404 se o ninja não for encontrado
             }
@@ -69,7 +69,7 @@ public class NinjaController {
 
     // Alterar (UPDATE)
     @PutMapping("/alterar/{id}")
-    public NinjaModel alterarNinjaPorId(@PathVariable Long id, @RequestBody NinjaModel ninjaAtualizado) {
+    public NinjaDTO alterarNinjaPorId(@PathVariable Long id, @RequestBody NinjaDTO  ninjaAtualizado) {
         return ninjaService.atualizarNinja(id,ninjaAtualizado);
     }
 }

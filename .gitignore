@@ -1,4 +1,6 @@
 .env
 .idea/workspace.xml
+target/
 *.class
 data/*.mv.db
+
